@@ -50,7 +50,13 @@ const App = () => {
       )
       if(result) {
         Swal.fire('Success', 'Event successfully announced, check Google Calendar', 'success')
-        .then(() => { location.reload() })
+        .then(() => {
+          setStart('')
+          setEnd('')
+          name.current.value = ''
+          description.current.value = ''
+          emails.current.value = ''
+        })
       }
     }
     catch(err) {

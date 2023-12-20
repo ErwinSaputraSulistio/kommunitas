@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+#root, form {
+  align-items: center;
+  background: #F8F8FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#root { 
+  font-family: 'Poppins';
+  min-height: 100vh;
+}
+button {
+  border-radius: 0.25em;
+  cursor: pointer;
+  transition: 0.1s;
+}
+button:hover {
+  opacity: 0.5;
+}
+header {
+  margin: 1.5em 0;
+  text-align: center;
+}
+input, textarea { 
+  background: transparent;
+  border: 1px solid #222227;
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  width: 100%; 
+}
+p { 
+  font-size: 0.75em;
+  margin: 0;
+  margin-top: 1em;
+  width: 100%;
+}
+
+.buttonAuthentication, .buttonAnnounceEvent, .inputCustom {
+  font-family: 'Poppins';
+  padding: 0.25em 0.5em;
+  width: 100%;
+}
+.buttonAuthentication, .buttonAnnounceEvent {
+  background: #222227;
+  color: #F8F8FF;
+  margin: 0.5em 0;
+}
+.buttonAnnounceEvent {
+  margin-top: 1.5em;
+}
+.w-100 {
+  width: 100%;
+}
